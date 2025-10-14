@@ -1,4 +1,5 @@
 # Machine-Learning-Project  
+Colab Link - https://colab.research.google.com/drive/1GykqxrbBa9X4I7WfF0-SCq8sJrxKG7NA#scrollTo=Xb9JZ-_LcMYs
 Datasets Used
 IMDB Movie Reviews:
 25,000 samples (12,500 positive + 12,500 negative) — balanced binary sentiment classification.
