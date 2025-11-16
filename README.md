@@ -5,9 +5,9 @@ DSL501 Machine Learning Project | Rohit Raghuwanshi (Roll No: 12341820)
 Colab Link - https://colab.research.google.com/drive/1GykqxrbBa9X4I7WfF0-SCq8sJrxKG7NA#scrollTo=c42OcEgabDcB
 
 ## 📌 Project Overview
-This project introduces **Class-Aware Adaptive Teaching Regularization (CATR), a novel framework that addresses two critical limitations of Liu et al. (NeurIPS 2024):
+This project introduces Class-Aware Adaptive Teaching Regularization (CATR), a novel framework that addresses two critical limitations of Liu et al. (NeurIPS 2024):
 1. Uniform knowledge transfer that ignores class imbalance
-2. Static regularization strength** that cannot adapt to sample difficulty
+2. Static regularization strength that cannot adapt to sample difficulty
 
 ### ✨ Key Innovations
 - Class-Aware Weighting**: Dynamically adjusts teaching intensity using `α(x) = w_c × (1 - max(p_teacher))`
@@ -21,8 +21,8 @@ This project introduces **Class-Aware Adaptive Teaching Regularization (CATR), a
 - Davidson Hate Speech:  
   - 4,783 samples (~25K) with severe class imbalance:
   - Hate speech: 1,430 samples (5.77%)
-  - Offensive language: 19,190 samples (**77.43%**)
-  - Neither: 4,163 samples (**16.80%**)
+  - Offensive language: 19,190 samples (77.43%)
+  - Neither: 4,163 samples (16.80%)
 
 > 💡 Both datasets are used exactly as specified in the SoP (Sections 4.1–4.2).
 
@@ -34,8 +34,8 @@ Machine-Learning-Project/
 │   └── processed/              # Cleaned + preprocessed CSVs
 │
 ├── models/
-│   ├── baseline_tiny_davidson/      # Baseline model (Week 2)
-│   ├── teaching_reg_davidson/       # Liu et al. Teaching Reg (Week 3)
+│   ├── baseline_tiny_davidson/      # Baseline model (part 2)
+│   ├── teaching_reg_davidson/       # Liu et al. Teaching Reg (part 3)
 │   └── catr_weighting_davidson/     # Best model (Class-Aware only)
 │
 ├── results/
